@@ -1,0 +1,110 @@
+html{
+    --Vert-clair: #a0cb23;
+   --Vert-foncé: #14462d;
+   --Rouge-hot: #da485b;
+   --Turquoise: linear-gradient(135deg,#92ddd8,#95dcd6);
+   --Orange: linear-gradient(135deg,#fb9823,#f58313);
+   --Vert: linear-gradient(135deg,#afe223,#a0cb23);
+   --Fond-gris-articles: #f6fafb;
+   --Jaune-réduction: #fffc00;
+}
+@font-face {
+    font-family:'Island Moments', cursive;
+    src: url();
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    font-display:initial;
+    position: sticky;
+    top:0;
+    padding-left: 300px;
+   
+}
+.bgfruit{
+    background-image: url("../integration/img/bg_fruit.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 252px;
+    height: 571px;
+    
+}
+.banner{
+    background-image: url("../integration/img/banner.jpg");
+    width: 100%;
+    height: 968px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+   
+}
+.text{
+    font-family: 'Roboto Regular 400', cursive;
+    font-size: large;
+    font-weight:200
+}
+.text p:nth-of-type(2){
+    color: black;
+}
+.green{
+    color: var(--Vert-clair);
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+}
+.banner p{
+    color: var(--Vert-clair);
+}
+.text{
+    margin-right: 47%;
+}
+.bouton{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    border: 2px solid;
+    width:auto;
+    height: auto;
+    text-align: center;
+    text-transform: capitalize;
+    padding:5px;
+    margin:5px;  
+    color: white;
+    background-color: var(--Vert-clair);
+}
+.btn:last-child{
+    background-color:var(--Vert-foncé)
+}
+.main{
+    margin-top: 10%;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.legume , .boisson , .beaute {
+    border: 2px solid;
+    background-color: #14462d;
+    width: 20rem;
+    margin:2em;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    text-align:left;
+}
+
+
+
+
