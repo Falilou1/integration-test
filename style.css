@@ -9,8 +9,10 @@ html{
    --Jaune-réduction: #fffc00;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
 navbar{
     display: flex;
     flex-direction: row;
@@ -63,7 +65,7 @@ navbar{
    background-color: var(--Vert-foncé);
    color: #f6fafb;
     border-radius: 50%;
-    padding: 2px;
+    padding: 3px;
     margin-right: 3.5em;
     margin-top: 0.7em;
     position:absolute;
@@ -90,7 +92,7 @@ navbar{
     margin:5px;  
     color: white;
     background-color: var(--Vert-clair);
-    font-family: 'Island Moments', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .btn:last-child{
     background-color:var(--Vert-foncé)
@@ -173,7 +175,7 @@ justify-content: flex-start;
     padding: 1em;
     position: relative;
     width: 15%;
-    font-family: 'Roboto Regular 400', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 900;
     font-weight: 100;
    
@@ -258,5 +260,5 @@ span{
 }
 #pp{
     font-size:xx-large;
-    font-family: 'Island Moments', cursive;
+    font-family: 'Roboto', sans-serif;
 }
