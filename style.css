@@ -8,6 +8,9 @@ html{
    --Fond-gris-articles: #f6fafb;
    --Jaune-réduction: #fffc00;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
 navbar{
     display: flex;
     flex-direction: row;
@@ -41,9 +44,10 @@ navbar{
    
 }
 .text{
-    font-family: 'Roboto Regular 400', cursive;
-    font-size: large;
-    font-weight:200
+    
+    font-size:larger;
+    font-weight: 100;
+    
 }
 .text p:nth-of-type(2){
     color: black;
@@ -54,6 +58,17 @@ navbar{
     border-radius: 50%;
     margin: 5px;
     padding: 10px;
+}
+.zero{
+   background-color: var(--Vert-foncé);
+   color: #f6fafb;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 3.5em;
+    margin-top: 0.7em;
+    position:absolute;
+    right:0;
+    
 }
 .banner p{
     color: var(--Vert-clair);
@@ -71,10 +86,11 @@ navbar{
     height: auto;
     text-align: center;
     text-transform: capitalize;
-    padding: 10px;
+    padding:5px;
     margin:5px;  
     color: white;
     background-color: var(--Vert-clair);
+    font-family: 'Island Moments', cursive;
 }
 .btn:last-child{
     background-color:var(--Vert-foncé)
@@ -89,26 +105,52 @@ navbar{
 
 }
 .legume , .boisson , .beaute{
-    background:var(--Vert);
-    width: 20rem;
+    width: 30%;
+    min-width:10%;
+    height:10%;
     margin:2em;
-    padding:40px;
+    padding:35px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items:flex-start;
-    text-align:left;
+   margin-left: 7em;
+   margin-right: 7em;  
+}
+.bp{
+    color: white;
+}
+
+.bp  p:first-child{
+    font-size:30px;
+}
+.legume{
+    background:var(--Turquoise);
+    position: relative;
+    height: 25vh;
+    padding-right: 5%;
+    width: 20%;
+justify-content: flex-start;
+  
 }
 .boisson{
     background: var( --Orange);
 }
+.boisson img , .beaute img{
+    align-self: flex-end;
+    margin-left:2em;
+}
+.legume img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .beaute{
-    background: var(--Turquoise);
+    background: var(--Vert-clair);
 }
-.legume p , .boisson p , .beaute p{
-    color: white;
-    font-size: 1em;
-}
+
+
 
 .title{
     display: flex;
@@ -130,6 +172,10 @@ navbar{
     margin: 1em;
     padding: 1em;
     position: relative;
+    width: 15%;
+    font-family: 'Roboto Regular 400', cursive;
+    font-size: 900;
+    font-weight: 100;
    
 }
 
@@ -189,15 +235,28 @@ color: white;
 }
 .advertise img{
     border-radius: 100% 0 0;
-    border-top: 2px solid #c2ed46;
-    border-left: 20px solid #c2ed46;;
+    border-top: 3px solid #c2ed46;
+    border-left: 40px solid #c2ed46;;
     width: 30%;
     height: 100%;
     
 }
-.article p:nth-child(7){
-    text-decoration:line-through;
-}
 span{
     color:var(--Vert-clair);
+}
+.barre{
+    text-decoration: line-through;
+    color: black;
+}
+.promo{
+    color:var(--Jaune-réduction);
+    font-size:xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+#pp{
+    font-size:xx-large;
+    font-family: 'Island Moments', cursive;
 }
