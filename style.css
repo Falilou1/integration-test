@@ -47,13 +47,17 @@ navbar{
 }
 .text{
     
-    font-size:larger;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight:100;
+    margin-right: 42%;
     
 }
 .text p:nth-of-type(2){
     color: black;
+    
 }
+
+
 .green{
     color: var(--Vert-clair);
     background-color: white;
@@ -65,7 +69,7 @@ navbar{
    background-color: var(--Vert-foncé);
    color: #f6fafb;
     border-radius: 50%;
-    padding: 3px;
+    padding: 1.5px;
     margin-right: 3.5em;
     margin-top: 0.7em;
     position:absolute;
@@ -75,27 +79,34 @@ navbar{
 .banner p{
     color: var(--Vert-clair);
 }
-.text{
-    margin-right: 47%;
-}
+
 .bouton{
     display: flex;
     flex-direction: row;
+    margin-right: 53%;
 }
-.btn , .btn1{
+.btn , .btn1 , .btn2{
     border: 2px solid;
     width:9em;
     height: auto;
     text-align: center;
     text-transform: capitalize;
-    padding:5px;
+    padding:12px;
     margin:5px;  
     color: white;
     background-color: var(--Vert-clair);
     font-family: 'Roboto', sans-serif;
 }
 .btn:last-child{
-    background-color:var(--Vert-foncé)
+    background-color:var(--Vert-foncé);
+}
+.btn1{
+    width: 5em;
+}
+.btn2{
+    width: 5em;
+    padding: 7px;
+    background-color:var(--Vert-foncé);
 }
 .main , .populaire , .advertise{
     margin-top: 10%;
