@@ -273,3 +273,36 @@ span{
     font-size:xx-large;
     font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width:1000px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bouton{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner{
+        background-image: contain;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .steak , .broccoli , .fraise , .miel , .lait , .mangue{
+        width: 30%;
+    }
+.navbar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    
+}
+}
