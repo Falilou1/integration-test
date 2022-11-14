@@ -13,6 +13,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
 }
+/*
 navbar{
     display: flex;
     flex-direction: row;
@@ -45,6 +46,15 @@ navbar{
     align-items:center; 
    
 }
+*/
+
+    .banner{
+        background-image: url('assets/img/banner.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 .text{
     
     font-size: 2rem;
@@ -117,6 +127,21 @@ navbar{
     justify-content: space-evenly;
 
 }
+
+
+.legume{
+    background:var(--Turquoise);
+    
+} 
+
+.boisson{
+    background: var( --Orange);
+
+} .beaute{
+
+    background: var(--Vert-clair);
+}
+/*
 .legume , .boisson , .beaute{
     width: 30%;
     min-width:10%;
@@ -130,6 +155,7 @@ navbar{
    margin-left: 7em;
    margin-right: 7em;  
 }
+*/
 .bp{
     color: white;
 }
@@ -137,6 +163,7 @@ navbar{
 .bp  p:first-child{
     font-size:30px;
 }
+/*
 .legume{
     background:var(--Turquoise);
     position: relative;
@@ -146,6 +173,7 @@ navbar{
 justify-content: flex-start;
   
 }
+
 .boisson{
     background: var( --Orange);
 }
@@ -163,7 +191,7 @@ justify-content: flex-start;
     background: var(--Vert-clair);
 }
 
-
+*/
 
 .title{
     display: flex;

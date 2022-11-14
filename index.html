@@ -4,37 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" 
-    media="screen and (max-width: 768px)"
-    href="style.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css" />
+   
     <title>Groxi store</title>
   </head>
   <body>
     <header>
       <div class="bgfruit"></div>
-      <navbar>
-        <img src="img/logo.png" alt="logo de la boutique" />
-        <p>Accueil</p>
-        <p>A propos</p>
-        <p>Pages</p>
-        <p>Blog</p>
-        <p>Contact</p>
-        <p><i class="fa-solid fa-magnifying-glass green"></i></p>
-        <p><i class="fa-solid fa-user green"></i></p>
-        <p><i class="fa-solid fa-heart green"></i></p>
-        <p><i class="fa-solid fa-cart-shopping green"></i></p>
-        <span class="zero">0</span>
-      </navbar>
 
-      <div class="banner">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../integration/assets/img/logo.png" alt="logo du site"  width="70" height="54" class="d-inline-block align-text-top">
+          
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">A propos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Boutique</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-magnifying-glass green"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-user green"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+            <i class="fa-solid fa-heart green"></i></a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-cart-shopping green"></i></a>
+          </li>
+            <span class="zero">0</span>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid text-center">
+          <div class=" banner row align-items-center">
+            <div class="col-8">
+              
+     
+             <p class="text-green">Bienvenue sur notre épicerie en ligne</p>
+             <h1>Boutique en ligne <br />de produits frais</h1>
+             <p class="text-gray">Votre click & collect près de chez vous</p>
+             <button type="button" class="btn btn-success">En Savoir Plus</button>
+             <button type="button" class="btn btn-success">Faire ses courses</button>
+       
+            </div>
+            </div>
+        </div>
+    
+
+
+    <!--  <navbar>
+         <div class="banner">
         <div class="text">
           <p>Bienvenue sur notre épicerie en ligne</p>
           <h1>Boutique en ligne <br />de produits frais</h1>
@@ -48,6 +112,27 @@
         
       </div>
     </header>
+-->
+<div class="container-fluid text-center">
+  <div class="row align-items-center mt-5">
+         <div class="col-4">
+     <img src="assets/img/legumes.png" class="legume img-fluid" alt="...">
+     <p>Trouvez vos <br/>légumes <br/>préférés</p>
+          <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
+           </div>
+         <div class="col-4">
+          <img src="assets/img/boisson.png" class="boisson img-fluid" alt="...">
+          <p>Notre meilleure sélection de boissons</p>
+          <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
+           </div>
+   <div class="col-4">
+      <img src="assets/img/beaute.png" class="beaute img-fluid" alt="...">
+      <p>Produits <br/>beauté et <br/>santé </p>
+      <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
+   </div>
+</div>
+</div>
+     <!----
 
     <section class="main">
       <div class="article">
@@ -56,7 +141,7 @@
           <p>Trouvez vos <br/>légumes <br/>préférés</p>
           <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
          </div>
-          <img src="img/legumes.png" alt="legumes" />
+          <img src="assets/img/legumes.png" alt="legumes" />
           
         </div>
 
@@ -65,7 +150,7 @@
           <p>Notre meilleure sélection de boissons</p>
           <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
         </div>
-          <img src="img/boisson.png" alt="boisson" />
+          <img src="assets/img/boisson.png" alt="boisson" />
           
         </div>
 
@@ -74,11 +159,28 @@
           <p>Produits <br/>beauté et <br/>santé </p>
           <p>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
           </div>
-          <img src="img/beaute.png" alt="beaute" />
+          <img src="assets/img/beaute.png" alt="beaute" />
           
         </div>
       </div>
     </section>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="populaire">
       <div class="title">
@@ -89,7 +191,7 @@
         <div class="steak">
           <p id="hot">Hot</p>
           <p><i class="fa-solid fa-heart gray"></i></p>
-          <img src="img/beef.png" alt="photo d'un steak" />
+          <img src="assets/img/beef.png" alt="photo d'un steak" />
           <p><i class="fa-solid fa-star yellow"></i>
             <i class="fa-solid fa-star  yellow"></i>
             <i class="fa-solid fa-star  yellow"></i>
@@ -104,7 +206,7 @@
         <div class="broccoli">
           <p><i class="fa-solid fa-heart greenb"></i></p>
           <img
-            src="img/broccoli.png"
+            src="assets/img/broccoli.png"
             alt="photo de broccoli"
           />
          <p><i class="fa-solid fa-star yellow"></i>
@@ -121,7 +223,7 @@
         <div class="fraise">
           <p><i class="fa-solid fa-heart gray" ></i></p>
           <img
-            src="img/fraises.png"
+            src="assets/img/fraises.png"
             alt="photo de fraise"
           />
           <p><i class="fa-solid fa-star yellow"></i>
@@ -140,7 +242,7 @@
         <div class="miel">
           <p><i class="fa-solid fa-heart gray"></i></p>
           <img
-            src="img/miel.png"
+            src="assets/img/miel.png"
             alt="photo d'un pot de miel"
           />
           <p><i class="fa-solid fa-star yellow"></i>
@@ -157,7 +259,7 @@
         <div class="lait">
           <p><i class="fa-solid fa-heart gray"></i></p>
           <img
-            src="img/lait.png"
+            src="assets/img/lait.png"
             alt="photo de bouteille de lait"
           />
           <p><i class="fa-solid fa-star yellow"></i>
@@ -174,7 +276,7 @@
         <div class="mangue">
           <p><i class="fa-solid fa-heart gray"></i></p>
           <img
-            src="img/mangue.png"
+            src="assets/img/mangue.png"
             alt="photo d'un verre de boisson à la mangue"
           />
           <p><i class="fa-solid fa-star yellow"></i>
@@ -194,7 +296,9 @@
     <section class="advertise">
       <p><span class="promo">50% </span>DE RÉDUCTION <br/><br/>J'EN PROFITE <i class="fa-solid fa-arrow-right"></i></p>
       <p id="pp">Les produits les <br/>plus populaires</p>
-      <img src="img/panier.jpg">
+      <img src="assets/img/panier.jpg">
     </section>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
+
 </html>
