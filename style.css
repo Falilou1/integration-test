@@ -62,7 +62,7 @@ navbar{
     margin-right: 42%;
     
 }
-.text p:nth-of-type(2){
+.text-gray{
     color: black;
     
 }
@@ -86,7 +86,7 @@ navbar{
     right:0;
     
 }
-.banner p{
+.text-green{
     color: var(--Vert-clair);
 }
 
@@ -118,6 +118,8 @@ navbar{
     padding: 7px;
     background-color:var(--Vert-foncé);
 }
+
+
 .main , .populaire , .advertise{
     margin-top: 10%;
 }
@@ -193,16 +195,37 @@ justify-content: flex-start;
 
 */
 
+
 .title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.title p{
     color: var(--Vert-clair);
     font-size: 1.25em;
 }
 
+#hot{
+    background-color:#da485b;
+    color:white;
+    width:2.5em;
+     position: absolute;
+     left: 4.2rem;
+}
+.gray{
+    color: gray;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 9px;
+    position: absolute;
+   
+}
+
+.steak , .broccoli , .fraise , .miel , .lait , .mangue{
+    background:var(--Fond-gris-articles);
+    
+}
+.broccoli{
+    border: 1px solid var(--Vert-clair);
+}
+/*
 .steak , .broccoli , .fraise , .miel , .lait , .mangue{
     display: flex;
     flex-direction: column;
@@ -248,6 +271,7 @@ justify-content: flex-start;
 background-color:var(--Vert-clair);
 color: white;
 }
+*/
 .yellow{
     color: #fdcc43;;
 }
@@ -301,6 +325,7 @@ span{
     font-size:xx-large;
     font-family: 'Roboto', sans-serif;
 }
+/*
 @media screen and (max-width:1000px) {
     .text{
         display: flex;
